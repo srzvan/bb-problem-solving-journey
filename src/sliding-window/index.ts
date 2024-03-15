@@ -67,7 +67,7 @@ export function numOfSubarrays(nums: number[], compare: number) {
       start++;
     }
 
-    let length = end - start + 1;
+    const length = end - start + 1;
 
     count += length;
   }
